@@ -9,6 +9,8 @@ This error usually occurs when your PHP application (e.g., Laravel) cannot write
 Run the following commands in your project root to fix the issue:
 
 ```bash
+cd /path/your/projects/
+
 sudo chown -R $USER:www-data storage
 sudo chown -R $USER:www-data bootstrap/cache
 
